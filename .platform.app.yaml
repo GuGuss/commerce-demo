@@ -97,6 +97,7 @@ hooks:
       cd web/themes/custom/commerce_2_demo
       npm install
       npm run build-sass
+      echo "Testing Payload 1"
     # The deploy hook runs after your application has been deployed and started.
     deploy: |
       cd web
